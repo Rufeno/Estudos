@@ -1,0 +1,23 @@
+print("Bem-vindo à cafeteria!")
+print("Quantos cafes voce deseja comprar?")
+quantidade = int(input())
+print("Qual o valor do cafe?")
+valor_cafe = float(input())
+valor_total_cafe = quantidade * valor_cafe
+print("quantos paes voce deseja comprar?")
+quantidade_pao = int(input())
+print("Qual o valor do pao?")
+valor_pao = float(input())
+valor_total_pao = quantidade_pao * valor_pao
+print("quantos sucos voce deseja comprar?")
+quantidade_suco = int(input())
+print("Qual o valor do suco?")
+valor_suco = float(input())
+print("quantos bolos voce deseja comprar?")
+quantidade_bolo = int(input())
+print("Qual o valor do bolo?")
+valor_bolo = float(input())
+valor_total_bolo = quantidade_bolo * valor_bolo
+
+valor_total = valor_total_cafe + valor_total_pao + valor_suco * quantidade_suco + valor_total_bolo
+print(f"O valor total do seu pedido é R$ {valor_total:.2f}")
